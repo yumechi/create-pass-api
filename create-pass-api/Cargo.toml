@@ -1,0 +1,13 @@
+[package]
+name = "create-pass-api"
+version = "0.1.0"
+authors = ["yumechi <yumechi0525@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+http = "0.1"
+now_lambda = "0.1"
+serde = "1.0" # if you're using `derive(Deserialize)`
+serde_derive = "1.0" # if you're using `derive(Deserialize)`
+rand = "0.6.5"
+

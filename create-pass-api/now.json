@@ -1,0 +1,15 @@
+{
+    "name": "create-pass-api",
+    "public": true,
+    "version": 2,
+    "builds": [
+        {
+            "src": "Cargo.toml",
+            "use": "@now/rust"
+        }
+    ],
+    "routes": [
+        { "src": "/", "dest": "/create-pass-api"}
+    ]
+}
+
